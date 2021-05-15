@@ -99,8 +99,8 @@ async function checkDepartment(department: number) {
       );
 
       const intro = (nbDoses == 1) ?
-        `${nbDoses} dose est disponible ${calendarDate}` :
-        `${nbDoses} doses sont disponibles ${calendarDate}`;
+        `${nbDoses} crénau est disponible ${calendarDate}` :
+        `${nbDoses} crénaux sont disponibles ${calendarDate}`;
 
       const message =
         `${intro}\n` +
